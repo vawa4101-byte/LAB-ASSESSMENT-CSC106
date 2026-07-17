@@ -2,20 +2,16 @@
 // Mobile Navigation
 // =============================
 
-const menuToggle = document.getElementById("menu-toggle");
-const navLinks = document.getElementById("nav-links");
+document.addEventListener("DOMContentLoaded", function () {
 
-if(menuToggle){
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
 
-    menuToggle.addEventListener("click",()=>{
-
+    menuToggle.addEventListener("click", function () {
         navLinks.classList.toggle("active");
-
     });
 
-}
-
-
+});
 // =============================
 // Typing Animation
 // =============================
