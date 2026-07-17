@@ -6720,3 +6720,39 @@ footer p{
 
 
 }
+/* ================= AUDIO INTRO ================= */
+
+.intro-audio{
+    padding:80px 8%;
+    text-align:center;
+    background:#f8fafc;
+}
+
+.intro-audio h2{
+    font-size:40px;
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.intro-audio p{
+    color:#555;
+    margin-bottom:25px;
+    line-height:1.8;
+}
+
+.intro-audio audio{
+    width:100%;
+    max-width:600px;
+}
+
+@media(max-width:768px){
+
+.intro-audio{
+    padding:60px 5%;
+}
+
+.intro-audio h2{
+    font-size:30px;
+}
+
+}
